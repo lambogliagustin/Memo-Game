@@ -1,0 +1,47 @@
+.arriba {
+    opacity: 1.0;
+}
+
+.abajo {
+    opacity: 0.0;
+}
+
+
+.juego {
+    width: 500px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-content: center;
+}
+
+.tablero {
+    width: calc(20% - 10px);
+    display: flex;
+    flex-direction: column;
+    position: relative;
+}
+
+.carta {
+    width: calc(21% - 10px);
+    height: 98px;
+    background-color: white;
+    box-shadow: 0 0 10px rgba(0, 0, 0, .6);
+    display: flex;
+    margin: 5px;
+    padding: 2px;
+}
+
+.carta img {
+    width: 100%;
+    position: absolute;
+    transition: all;
+}
+
+.contenedor-carta {
+    width: 500px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-content: stretch;
+}

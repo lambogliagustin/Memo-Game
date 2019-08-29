@@ -1,0 +1,115 @@
+<html>
+
+<head>
+  <link rel="stylesheet" href="Cartas.css">
+  <title> Memotex </title>
+</head>
+
+<body>
+  <div class="juego">
+    <div class="tablero">
+      <div class="contenedor-carta">
+        <div>
+          <h1>Memo Game</h1>
+          <p>Este es un juego de memoria.Selecciona un par coincidente dispones
+            de 20 intentos.</p>
+        </div>
+      </div>
+
+      <div class="contenedor-carta">
+        <div class="carta" data-id="1" data-value="google" onclick="mostrar(this)">
+          <img id="ask" class="arriba" src="Imagenes/ask.svg">
+          <img id="card" class="abajo" src="Imagenes/google-icon.svg">
+        </div>
+        <div class="carta" data-id="2" data-value="chrome" onclick="mostrar(this)">
+          <img id="ask" class="arriba" src="Imagenes/ask.svg">
+          <img id="card" class="abajo" src="Imagenes/chrome.svg">
+        </div>
+        <div class="carta" data-id="3" data-value="firefox" onclick="mostrar(this)">
+          <img id="ask" class="arriba" src="Imagenes/ask.svg">
+          <img id="card" class="abajo" src="Imagenes/firefox.svg">
+        </div>
+        <div class="carta" data-id="4" data-value="facebook" onclick="mostrar(this)">
+          <img id="ask" class="arriba" src="Imagenes/ask.svg">
+          <img id="card" class="abajo" src="Imagenes/facebook.svg">
+        </div>
+        <div class="carta" data-id="5" data-value="opera" onclick="mostrar(this)">
+          <img id="ask" src="Imagenes/ask.svg">
+          <img id="card" class="abajo" src="Imagenes/opera.svg">
+        </div>
+        <div class="carta" data-id="6" data-value="html5" onclick="mostrar(this)">
+          <img id="ask" class="arriba" src="Imagenes/ask.svg">
+          <img id="card" class="abajo" src="Imagenes/html-5.svg">
+        </div>
+        <div class="carta" data-id="7" data-value="twitter" onclick="mostrar(this)">
+          <img id="ask" class="arriba" src="Imagenes/ask.svg">
+          <img id="card" class="abajo" src="Imagenes/twitter.svg">
+        </div>
+        <div class="carta" data-id="8" data-value="instagram" onclick="mostrar(this)">
+          <img id="ask" class="arriba" src="Imagenes/ask.svg">
+          <img id="card" class="abajo" src="Imagenes/instagram-icon.svg">
+        </div>
+        <div class="carta" data-id="9" data-value="explorer" onclick="mostrar(this)">
+          <img id="ask" class="arriba" src="Imagenes/ask.svg">
+          <img id="card" class="abajo" src="Imagenes/internetexplorer.svg">
+        </div>
+        <div class="carta" data-id="10" data-value="google" onclick="mostrar(this)">
+          <img id="ask" class="arriba" src="Imagenes/ask.svg">
+          <img id="card" class="abajo" src="Imagenes/google-icon.svg">
+        </div>
+        <div class="carta" data-id="11" data-value="twitter" onclick="mostrar(this)">
+          <img id="ask" class="arriba" src="Imagenes/ask.svg">
+          <img id="card" class="abajo" src="Imagenes/twitter.svg">
+        </div>
+        <div class="carta" data-id="12" data-value="chrome" onclick="mostrar(this)">
+          <img id="ask" class="arriba" src="Imagenes/ask.svg">
+          <img id="card" class="abajo" src="Imagenes/chrome.svg">
+        </div>
+        <div class="carta" data-id="13" data-value="firefox" onclick="mostrar(this)">
+          <img id="ask" class="arriba" src="Imagenes/ask.svg">
+          <img id="card" class="abajo" src="Imagenes/firefox.svg">
+        </div>
+        <div class="carta" data-id="14" data-value="facebook" onclick="mostrar(this)">
+          <img id="ask" class="arriba" src="Imagenes/ask.svg">
+          <img id="card" class="abajo" src="Imagenes/facebook.svg">
+        </div>
+        <div class="carta" data-id="15" data-value="javascript" onclick="mostrar(this)">
+          <img id="ask" class="arriba" src="Imagenes/ask.svg">
+          <img id="card" class="abajo" src="Imagenes/javascript.svg">
+        </div>
+        <div class="carta" data-id="16" data-value="html5" onclick="mostrar(this)">
+          <img id="ask" class="arriba" src="Imagenes/ask.svg">
+          <img id="card" class="abajo" src="Imagenes/html-5.svg">
+        </div>
+        <div class="carta" data-id="17" data-value="instagram" onclick="mostrar(this)">
+          <img id="ask" class="arriba" src="Imagenes/ask.svg">
+          <img id="card" class="abajo" src="Imagenes/instagram-icon.svg">
+        </div>
+        <div class="carta" data-id="18" data-value="explorer" onclick="mostrar(this)">
+          <img id="ask" class="arriba" src="Imagenes/ask.svg">
+          <img id="card" class="abajo" src="Imagenes/internetexplorer.svg">
+        </div>
+        <div class="carta" data-id="19" data-value="javascript" onclick="mostrar(this)">
+          <img id="ask" class="arriba" src="Imagenes/ask.svg">
+          <img id="card" class="abajo" src="Imagenes/javascript.svg">
+        </div>
+        <div class="carta" data-id="20" data-value="opera" onclick="mostrar(this)">
+          <img id="ask" class="arriba" src="Imagenes/ask.svg">
+          <img id="card" class="abajo" src="Imagenes/opera.svg">
+        </div>
+        <div class="contenedor-carta">
+          <div class="footer">
+            <label id="intentos" class="text-center">Total de intentos: 0</label>
+            <button onclick="reiniciar()" type="button" class="btn btn-info">RESET</button>
+          </div>
+        </div>
+      </div>
+
+    </div>
+
+  </div>
+
+  <script type="text/javascript" src="Cartas.js"> </script>
+</body>
+
+</html>
